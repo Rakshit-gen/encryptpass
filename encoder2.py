@@ -7,7 +7,7 @@ def transferf(k):
     ep=math.exp2(98**(42.04/o))
     return math.floor(ep)
 def ret(val):
-    ans=42.04/math.log(math.log(val,2),98)
+    ans=42.90/math.log(math.log(val,2),98)
     return chr(math.floor(ans))
 
 def runner(password):
