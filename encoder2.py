@@ -28,7 +28,7 @@ for i in range(100):
     for i in range(1000000):
         password+=chr(random.randint(33,125))
     '''
-    password=[str(i) for i in range(250000)]
+    password=[str(i) for i in range(200000)]
     password=''.join(password)
     timei=time.time()
     runner(password)
