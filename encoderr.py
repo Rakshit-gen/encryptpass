@@ -135,7 +135,7 @@ while 1==1:
 '''
 for i in range(100):
     p=''
-    for u in range(10000):
+    for u in range(40000):
         j=chr(random.randint(65,90))
         p+=j
     y=time.time()
